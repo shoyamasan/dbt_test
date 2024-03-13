@@ -1,6 +1,9 @@
 {{
   config(
-    materialized = "table"
+    materialized = "table",
+    enabled = true,
+    database = "dataform-414301",
+    schema = "dbt_diff_ds"
   )
 }}
 
